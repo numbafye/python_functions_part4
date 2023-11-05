@@ -21,3 +21,9 @@ def rev_string(string):
 
 print (rev_string("DOG"))
     
+
+def num_within(a, b, c):
+    return c in range(a, b+1)
+
+print(num_within(1,7,10))
+print(num_within(1,7,5))
